@@ -1,0 +1,25 @@
+body {
+  max-width: 75rem;
+  padding: 6.25rem 11.8rem;
+  margin: 0px;
+  background: #10132f;
+  color: #fff;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
