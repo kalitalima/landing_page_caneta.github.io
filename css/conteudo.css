@@ -1,14 +1,11 @@
 .conteudo {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .conteudo-texto {
-  display: grid;
   background-color: #60648b;
+  display: grid;
+  padding: 90px 60px;
 }
 
-.conteudo-texto h1 {
-  font-size: 4.75rem;
-  font-weight: 200;
-}
