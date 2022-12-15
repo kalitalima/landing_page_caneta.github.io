@@ -1,11 +1,18 @@
 .conteudo {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.7fr 1fr;
 }
 
 .conteudo-texto {
   background-color: #60648b;
   display: grid;
-  padding: 90px 60px;
+  padding: 80px 100px 30px;
 }
 
+.conteudo-marca {
+  padding: 20px 0px 0px;
+  align-self: baseline;
+}
+.conteudo-acesso {
+  align-self: baseline;
+}

@@ -1,6 +1,6 @@
 body {
   max-width: 75rem;
-  padding: 40px;
+  padding: 60px;
   margin: 0px auto;
   background: #10132f;
   color: #fff;
@@ -26,10 +26,11 @@ a {
   background: #040614;
   padding: 15px 10px;
   border-radius: 4px;
+  font-size: 1.4rem;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5.5rem;
   font-weight: 100;
   line-height: 1;
 }
