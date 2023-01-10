@@ -109,7 +109,7 @@
 
   .conteudo-texto {
     padding: 30px 40px 30px;
-    gap: 40px;
+    gap: 60px;
   }
 
   h1 {
@@ -117,6 +117,6 @@
   }
 
   img {
-    height: 500px;
+    display: none;
   }
 }
