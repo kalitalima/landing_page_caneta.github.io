@@ -84,7 +84,7 @@
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   p {
@@ -97,5 +97,26 @@
 
   img {
     height: 700px;
+  }
+}
+
+@media (max-width: 480px) {
+  .conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .conteudo-texto {
+    padding: 30px 40px 30px;
+    gap: 40px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  img {
+    height: 500px;
   }
 }
