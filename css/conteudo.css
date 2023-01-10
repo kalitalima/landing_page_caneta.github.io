@@ -16,3 +16,59 @@
 .conteudo-acesso {
   align-self: baseline;
 }
+
+@media (max-width: 1300px) {
+  div {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  div {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1015px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+}
