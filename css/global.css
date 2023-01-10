@@ -25,6 +25,7 @@ a {
   color: #fff;
   text-transform: uppercase;
   background: linear-gradient(180deg, #23274e 0%, #10132f 100%);
+  font-weight: 600;
   border-radius: 4px;
   padding: 15px 10px;
   font-size: 1.5rem;

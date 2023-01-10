@@ -164,8 +164,8 @@
     font-size: 0.3rem;
   }
 
-  a {
-    font-size: 0.3rem;
+  .conteudo-acesso {
+    padding: 20px;
   }
 }
 
@@ -189,7 +189,10 @@
     font-size: 0.4rem;
   }
 
-  a {
-    font-size: 0.4rem;
+  .conteudo-acesso {
+    padding: 10px;
   }
+  
 }
+
+
