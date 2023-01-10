@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 1300px) {
-  div {
+  .conteudo {
     grid-template-columns: 1.5fr 1fr;
   }
 
@@ -32,12 +32,12 @@
 }
 
 @media (max-width: 1200px) {
-  div {
+  .conteudo {
     grid-template-columns: 1fr 1fr;
   }
 
   h1 {
-    font-size: 4.2rem;
+    font-size: 4rem;
   }
 
   h2 {
@@ -67,8 +67,35 @@
   }
 }
 
-@media (max-width: 1015px) {
+@media (max-width: 900px) {
+  .conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .conteudo-texto {
+    padding: 60px 80px 30px;
+    gap: 40px;
+  }
+
   h1 {
-    font-size: 3.4rem;
+    font-size: 3.41rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+
+  img {
+    height: 700px;
   }
 }
